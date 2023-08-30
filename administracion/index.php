@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./imagenes/ElegidosFull.ico">
+        <link rel="icon" href="../imagenes/ElegidosFull.ico">
         <title>ELEGIDOS MEXICO MC</title>
-        <link rel="stylesheet" href="./css/bootstrap.css"/>
+        <link rel="stylesheet" href="../css/bootstrap.css"/>
     </head>
     <body>
         
@@ -14,11 +14,11 @@
         <div class="container">
             <br />
             <center>
-                <img src="imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+                <img src="../imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
             </center>
             <br />
             <div class="container-cuerpo">
-                
+
             </div>
         </div>
         <br />
