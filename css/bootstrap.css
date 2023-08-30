@@ -787,7 +787,7 @@ progress {
   margin-left: auto;
   color: #002060;
   background-color: #fff;
-  opacity: 0.80;
+  opacity: 0.50;
 }
 @media (min-width: 768px) {
   .container-cuerpo {
