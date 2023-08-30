@@ -50,7 +50,16 @@
                 </div>
             </div>
         </nav>
+        <br />
+        <br />
+        <br />
+        <br />
         <div class="container-cuerpo">
+            <br />
+            <center>
+                <img src="imagenes/FULLPACHT.png" alt="Escudo" class="img-responsive">
+            </center>
+            <br />
             <div class="row">
             
             </div>
