@@ -54,13 +54,13 @@
         <br />
         <br />
         <br />
-        <div class="container-cuerpo">
+        <div class="container">
             <br />
-            <div class="row">
-                <center>
-                    <img src="imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
-                </center>
-                <br />
+            <center>
+                <img src="imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+            </center>
+            <br />
+            <div class="container-cuerpo">
                 <div class="jumbotron">
                     <h1 class="display-3">Jumbo heading</h1>
                     <p class="lead">Jumbo helper text</p>
