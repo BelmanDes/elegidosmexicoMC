@@ -2,14 +2,14 @@
                 <div class="jumbotron">
                     <h1 class="display-3">ELEGIDOS M&Eacute;XICO MC</h1>
                     <p class="lead">
-                        Esun grupo de Motociclistas de Estado de M&eacute;xico; constituido como una organizaci&oacute; sin fines de lucro, 
+                        Es un grupo de Motociclistas de Estado de M&eacute;xico; constituido como una organizaci&oacute; sin fines de lucro, 
                         que nos reunimos por el simple hecho de disfrutar y compartir un hobbie familiar las motos.
                         </p>
                     <hr class="my-2">
                 </div>
                 <br />
                 <div class="jumbotron">
-                    <h1 class="display-3">Vision</h1>
+                    <h1 class="display-3">Visi&oacute;n</h1>
                     <p class="lead">
                         Nuestra Vision es ser un moto club familiar con crecimiento sostenido, bas&aacute;ndonos en nuestros valores y en las buenas 
                         costumbres, el respeto y las ganas de establecer una diferencia dentro de nuestro medio.
@@ -29,13 +29,13 @@
                 <br />
                 <div class="jumbotron">
                     <h1 class="display-3">Valores</h1>
-                    <p class="lead">Nuestros Valores son: </p>
-                    <p class="lead"> FAMILIA</p>
-                    <p class="lead">LEALTAD</p>
-                    <p class="lead">HERMANDAD</p>
-                    <p class="lead">HONESTIDAD</p>
-                    <p class="lead">CONSTANCIA</p>
-                    <p class="lead">PASIÓN</p>
+                    <p class="lead"><b>Nuestros Valores son: </p>
+                    <p class="lead"><b>FAMILIA</b></p>
+                    <p class="lead"><b>LEALTAD</b></p>
+                    <p class="lead"><b>HERMANDAD</b></p>
+                    <p class="lead"><b>HONESTIDAD</b></p>
+                    <p class="lead"><b>CONSTANCIA</b></p>
+                    <p class="lead"><b>PASI&Oacute;N</b></p>
                     <hr class="my-2">
                 </div>
                 <br />
