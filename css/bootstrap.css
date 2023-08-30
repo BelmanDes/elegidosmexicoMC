@@ -780,6 +780,30 @@ progress {
     max-width: 1320px;
   }
 }
+.container-cuerpo {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #002060;
+  background-color: #fff;
+  opacity: 0.80;
+}
+@media (min-width: 768px) {
+  .container-cuerpo {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-cuerpo {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-cuerpo {
+    width: 1170px;
+  }
+}
 :root {
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
