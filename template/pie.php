@@ -1,3 +1,6 @@
+            </div>
+        </div>
+        <br />
         <footer class="panel-footer">
                     <p class="text-center">
                         <em><strong>Pagina Desarrollada por <a href="http://www.bbsolutions.esy.es">B & B Technology Solutions.</a></strong></em>

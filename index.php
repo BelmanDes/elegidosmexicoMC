@@ -8,7 +8,5 @@
                         <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
                     </p>
                 </div>
-            </div>
-        </div>
-        <br />
+                <br />
         <?php include("template/pie.php"); ?>     
