@@ -1,7 +1,7 @@
 <?php include("template/cabecera.php"); ?>
                 <div class="jumbotron">
-                    <h1 class="display-3">Jumbo heading</h1>
-                    <p class="lead">Jumbo helper text</p>
+                    <h1 class="display-3">ELEGIDOS MEXICO MC</h1>
+                    <p class="lead">Este Moto Club Nace.....</p>
                     <hr class="my-2">
                     <p>More info</p>
                     <p class="lead">
@@ -9,4 +9,4 @@
                     </p>
                 </div>
                 <br />
-        <?php include("template/pie.php"); ?>     
+<?php include("template/pie.php"); ?>     
