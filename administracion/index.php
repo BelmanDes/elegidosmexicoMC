@@ -21,9 +21,6 @@
             <div class="col-md-4">
                 
             </div>
-
-
-
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
@@ -32,7 +29,7 @@
                     <div class="card-body">
                         <form>
                         <div class = "form-group">
-                        <label for="exampleInputEmail1">Usuario</label>
+                        <label>Usuario</label>
                         <input type="text" class="form-control" name="usuario" placeholder="Ingresa Usuario">
                         </div>
                         <div class="form-group">
