@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="nav justify-content-center">
-      <a class="nav-link active" href="#">Active link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link disabled" href="#">Disabled link</a>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Administrador de Miembros <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Inicio</a>
+            <a class="nav-item nav-link" href="#">Miembros</a>
+            <a class="nav-item nav-link" href="#">Motos</a>
+            <a class="nav-item nav-link" href="#">Contactos</a>
+        </div>
+    </nav>
     </nav>
     <div class="container">
         <div class="row">
