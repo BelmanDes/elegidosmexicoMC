@@ -1,7 +1,8 @@
 ><!doctype html>
 <html lang="es">
   <head>
-    <title>Title</title>
+  <link rel="icon" href="./imagenes/ElegidosFull.ico">
+    <title>Administrador EMMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +14,7 @@
     <div class="container">
         <br />
         <center>
-            <img src="imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+            <img src="./imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
         </center>
         <br />
         <div class="row">
