@@ -1,4 +1,9 @@
-><!doctype html>
+<?php
+if($_POST){
+    header('location:inicio.php');
+}
+?>
+<!doctype html>
 <html lang="es">
   <head>
   <link rel="icon" href="../imagenes/ElegidosFull.ico">
@@ -8,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
@@ -27,14 +32,14 @@
                         Login
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form method="POST">
                         <div class = "form-group">
                         <label>Usuario</label>
                         <input type="text" class="form-control" name="usuario" placeholder="Ingresa Usuario">
                         </div>
                         <div class="form-group">
                         <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu Contraseña">
+                        <input type="password" class="form-control" name="password" placeholder="Ingresa Contraseña">
                         </div>
                         <button type="submit" class="btn btn-primary">Entrar</button>
                         </form>
