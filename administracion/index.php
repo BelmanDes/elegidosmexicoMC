@@ -11,6 +11,11 @@
   </head>
   <body>
     <div class="container">
+        <br />
+        <center>
+            <img src="imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+        </center>
+        <br />
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
@@ -21,14 +26,13 @@
                         <form>
                         <div class = "form-group">
                         <label for="exampleInputEmail1">Usuario</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <input type="text" class="form-control" name="usuario" placeholder="Ingresa Usuario">
                         </div>
                         <div class="form-group">
                         <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu Contraseña">
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign In</button>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
                         </form>
                         
                         
