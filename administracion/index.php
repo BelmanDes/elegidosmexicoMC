@@ -1,7 +1,7 @@
 ><!doctype html>
 <html lang="es">
   <head>
-  <link rel="icon" href="./imagenes/ElegidosFull.ico">
+  <link rel="icon" href="../imagenes/ElegidosFull.ico">
     <title>Administrador EMMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,11 +14,17 @@
     <div class="container">
         <br />
         <center>
-            <img src="./imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+            <img src="../imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
         </center>
         <br />
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
+                
+            </div>
+
+
+
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         Login
