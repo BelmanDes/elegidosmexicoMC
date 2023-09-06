@@ -2,12 +2,10 @@
 <div class="col-md-5">
     <form>
         <fieldset>
-            <legend>Legend</legend>
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                </div>
+            <legend>Agregar Miembros de EMMC</legend>
+            <div class="form-group">
+                <label for="nombre" class="form-label mt-4">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Introduce nombre">
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
