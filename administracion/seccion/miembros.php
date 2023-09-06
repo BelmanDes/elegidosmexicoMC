@@ -4,9 +4,18 @@
         <fieldset>
             <legend>Agregar Miembros de EMMC</legend>
             <div class="form-group">
-                <label for="nombre" class="form-label mt-4">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Introduce nombre">
+                <label for="nombre" class="form-label mt-4">Nombre(s)</label>
+                <input type="text" class="form-control form-control-sm" id="nombre" placeholder="Introduce nombre">
             </div>
+            <div class="form-group">
+                <label for="apellidoPat" class="form-label mt-4">Apellido Paterno</label>
+                <input type="text" class="form-control form-control-sm" id="apellidoPat" placeholder="Introduce Apellido Paterno">
+            </div>
+            <div class="form-group">
+                <label for="apellidoMat" class="form-label mt-4">Apellido Materno</label>
+                <input type="text" class="form-control form-control-sm" id="apellidoMat" placeholder="Introduce Apellido Materno">
+            </div>
+            <!--
             <div class="form-group">
                 <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -110,6 +119,7 @@
                     <label for="customRange3" class="form-label">Example range</label>
                     <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
             </fieldset>
+-->
             <button type="submit" class="btn btn-primary">Submit</button>
         </fieldset>
     </form>
