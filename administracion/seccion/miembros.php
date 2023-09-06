@@ -15,6 +15,14 @@
                 <label for="apellidoMat" class="form-label mt-4">Apellido Materno</label>
                 <input type="text" class="form-control form-control-sm" id="apellidoMat" placeholder="Introduce Apellido Materno">
             </div>
+            <div class="form-group">
+                <label for="alias" class="form-label mt-4">Alias</label>
+                <input type="text" class="form-control form-control-sm" id="alias" placeholder="Introduce Alias">
+            </div>
+            <div class="form-group">
+                <label for="fechNac" class="form-label mt-4">Fecha de Nacimiento</label>
+                <input type="calendar" class="form-control form-control-sm" id="fechNac" placeholder="Introduce Alias">
+            </div>
             <!--
             <div class="form-group">
                 <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
@@ -121,7 +129,7 @@
             </fieldset>
 -->
             <br />
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Agregar</button>
         </fieldset>
     </form>
 </div>
