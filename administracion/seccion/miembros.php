@@ -1,4 +1,4 @@
-<?php include("../template/cabecera.php"); ?>
+<?php include("../../template/cabecera.php"); ?>
 <div class="col-md-5">
     
 </div>
