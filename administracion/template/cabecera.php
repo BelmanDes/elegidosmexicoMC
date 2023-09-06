@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <link rel="icon" href="../../imagenes/ElegidosFull.ico">
+    <link rel="icon" href="../imagenes/ElegidosFull.ico">
     <title>Administrador EMMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
