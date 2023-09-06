@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">Administrador de Miembros EMMC<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>/administracion/index.php">Inicio</a>
+            <a class="nav-item nav-link" href="<?php echo $url;?>/administracion/inicio.php">Inicio</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/administracion/seccion/miembros.php">Miembros</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/administracion/seccion/motos.php">Motos</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/administracion/seccion/contactos.php">Contactos</a>
