@@ -37,10 +37,12 @@ if($_POST){
                         <label>Usuario</label>
                         <input type="text" class="form-control" name="usuario" placeholder="Ingresa Usuario">
                         </div>
+                        <br />
                         <div class="form-group">
                         <label for="exampleInputPassword1">Contraseña</label>
                         <input type="password" class="form-control" name="password" placeholder="Ingresa Contraseña">
                         </div>
+                        <br />
                         <button type="submit" class="btn btn-primary">Entrar</button>
                         </form>
                         
