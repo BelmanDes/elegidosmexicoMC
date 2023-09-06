@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-5">
+<div class="col-md-3">
     <form>
         <fieldset>
             <legend>Agregar Miembros de EMMC</legend>
@@ -120,11 +120,12 @@
                     <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
             </fieldset>
 -->
+            <br />
             <button type="submit" class="btn btn-primary">Submit</button>
         </fieldset>
     </form>
 </div>
-<div class="col-md-7">
+<div class="col-md-9">
     tabla de miembros
 </div>
 <?php include("../template/pie.php"); ?>
