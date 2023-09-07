@@ -78,7 +78,7 @@
             </div>
             <div class="form-group">
                 <label for="municipio" class="form-label mt-4">Municipio</label>
-                <select class="form-select" id="municipio">
+                <select class="form-select" id="municipio" disabled="false">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
