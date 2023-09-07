@@ -116,23 +116,26 @@
                     <option>5</option>
                 </select>
             </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked="">
-                <label class="form-check-label" for="optionsRadios1">
+            <fieldset class="form-group">
+                <legend class="mt-4">Estatus</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked="">
+                    <label class="form-check-label" for="optionsRadios1">
                     Activo
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="0" checked="">
-                <label class="form-check-label" for="optionsRadios1">
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="0">
+                    <label class="form-check-label" for="optionsRadios2">
                     Inactivo
-                </label>
-            </div>
+                    </label>
+                </div>
+            </fieldset>
             <br />
             <div class="btn-group" role="group" aria-label="">
                 <button type="button" class="btn btn-primary btn-sm">Agregar</button>
-                <button type="button" class="btn btn-warning btn-sm">Modificar</button>
-                <button type="button" class="btn btn-info btn-sm">Cancelar</button>
+                <button type="button" class="btn btn-primary btn-sm">Modificar</button>
+                <button type="button" class="btn btn-warning btn-sm">Cancelar</button>
             </div>
         </fieldset>
     </form>
