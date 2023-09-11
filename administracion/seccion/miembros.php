@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-3">
+<div class="col-md-12">
     <form method="POST" enctype="multipart/form-data" action="">
         <fieldset>
             <legend>Agregar Miembros de EMMC</legend>
