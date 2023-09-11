@@ -1,6 +1,6 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-3">
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data" action="">
         <fieldset>
             <legend>Agregar Miembros de EMMC</legend>
             <div class="form-group">
@@ -78,7 +78,7 @@
             </div>
             <div class="form-group">
                 <label for="municipio" class="form-label mt-4">Municipio</label>
-                <select class="form-select" id="municipio" disabled="False">
+                <select class="form-select" id="municipio">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
