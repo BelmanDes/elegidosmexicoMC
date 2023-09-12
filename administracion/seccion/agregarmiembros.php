@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-5">
+<div class="col-md-7">
     <div class="card">
         <div class="card-header">
             Agregar Miembros de ELEGIDOS MEXICO MC
