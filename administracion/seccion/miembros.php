@@ -1,6 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-3">
-
 <div class="card">
     <div class="card-header">
         Agregar Miembros de EMMC

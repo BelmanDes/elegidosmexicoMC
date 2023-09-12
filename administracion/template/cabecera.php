@@ -45,5 +45,8 @@
     </nav>
     <div class="container">
         <br />
+        <center>
+            <img src="../imagenes/FULLPACHT.png" width="300" height="300" alt="Full Patcht" class="img-responsive">
+        </center>
         <br />
         <div class="row">
