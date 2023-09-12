@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-12">
+<div class="col-md-10">
     <div></div>
     <div class="card">
         <div class="card-header">
