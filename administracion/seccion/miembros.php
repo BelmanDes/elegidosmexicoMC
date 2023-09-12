@@ -1,8 +1,8 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-3">
+<div class="col-md-5">
     formulario
 </div>
-<div class="col-md-9">
+<div class="col-md-7">
     tabla de miembros
 </div>
 <?php include("../template/pie.php"); ?>
