@@ -1,7 +1,8 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-12">
-    <div></div>
+    <button type="button" class="btn btn-primary btn-sm" href="<?php echo $url;?>/administracion/seccion/Agregarmiembros.php">Agregar Miembro</button>
     <div class="card ">
+        b4-bu
         <div class="card-header">
             Miembros de ELEGIDOS MEXICO MC
         </div>
@@ -16,18 +17,37 @@
                         <th>Celular</th>
                         <th>Email</th>
                         <th>Ocupacion</th>
-                        <th>Alias</th>
                         <th>Seguro Social</th>
                         <th>Tipo Sangre</th>
-                        <th>Celular</th>
-                        <th>Email</th>
+                        <th>Padecimientos</th>
+                        <th>direccion</th>
+                        <th>Estado</th>
+                        <th>Municipio</th>
+                        <th>Rango</th>
+                        <th>Cargo</th>
+                        <th>Rol</th>
+                        <th>Estatus</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row"></td>
-                        <td></td>
-                        <td></td>
+                        <td>Nombre</td>
+                        <td>Alias</td>
+                        <td>Fecha Nac</td>
+                        <td>Telefono</td>
+                        <td>Celular</td>
+                        <td>Email</td>
+                        <td>Ocupacion</td>
+                        <td>Seguro Social</td>
+                        <td>Tipo Sangre</td>
+                        <td>Padecimientos</td>
+                        <td>direccion</td>
+                        <td>Estado</td>
+                        <td>Municipio</td>
+                        <td>Rango</td>
+                        <td>Cargo</td>
+                        <td>Rol</td>
+                        <td>Estatus</td>
                     </tr>
                 </tbody>
             </table>
