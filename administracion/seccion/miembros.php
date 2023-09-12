@@ -1,8 +1,8 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-12">
     <button type="button" class="btn btn-primary btn-sm" href="<?php echo $url;?>/administracion/seccion/Agregarmiembros.php">Agregar Miembro</button>
+    <br />
     <div class="card ">
-        b4-bu
         <div class="card-header">
             Miembros de ELEGIDOS MEXICO MC
         </div>
