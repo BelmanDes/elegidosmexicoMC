@@ -1,6 +1,7 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-12">
-    <div class="card">
+    <div></div>
+    <div class="card col-md-8">
         <div class="card-header">
             Miembros de ELEGIDOS MEXICO MC
         </div>
