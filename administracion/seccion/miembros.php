@@ -153,6 +153,15 @@
                 <th>Nombre</th>
                 <th>Alias</th>
                 <th>Fecha Nac</th>
+                <th>Telefono</th>
+                <th>Celular</th>
+                <th>Email</th>
+                <th>Ocupacion</th>
+                <th>Alias</th>
+                <th>Seguro Social</th>
+                <th>Tipo Sangre</th>
+                <th>Celular</th>
+                <th>Email</th>
             </tr>
         </thead>
         <tbody>
