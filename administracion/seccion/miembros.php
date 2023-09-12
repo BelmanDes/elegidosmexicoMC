@@ -1,6 +1,6 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-12">
-        <a class="nav-link" href="<?php echo $url;?>/administracion/seccion/agregarmiembros.php">Agregar Miembro</a>
+        <a class="btn btn-primary btn-sm" href="<?php echo $url;?>/administracion/seccion/agregarmiembros.php">Agregar Miembro</a>
     <br />
     <br />
     <div class="card ">
