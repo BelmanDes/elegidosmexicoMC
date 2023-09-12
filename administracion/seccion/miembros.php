@@ -3,19 +3,11 @@
 
 <div class="card">
     <div class="card-header">
-        Datos de los miembros
+        Agregar Miembros de EMMC
     </div>
     <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Text</p>
-    </div>
-    <div class="card-footer text-muted">
-        Footer
-    </div>
-</div>
     <form method="POST" enctype="multipart/form-data" action="">
         <fieldset>
-            <legend>Agregar Miembros de EMMC</legend>
             <div class="form-group">
                 <label for="nombre" class="form-label mt-4">Nombre(s)</label>
                 <input type="text" class="form-control form-control-sm" id="nombre" placeholder="Introduce nombre">
@@ -152,6 +144,9 @@
             </div>
         </fieldset>
     </form>
+    </div>
+</div>
+    
 </div>
 <div class="col-md-9">
     tabla de miembros
