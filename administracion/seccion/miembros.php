@@ -1,7 +1,7 @@
 <?php include("../template/cabecera.php"); ?>
 <div class="col-md-12">
     <div></div>
-    <div class="card col-md-8">
+    <div class="card ">
         <div class="card-header">
             Miembros de ELEGIDOS MEXICO MC
         </div>
@@ -33,8 +33,5 @@
             </table>
         </div>
     </div>
-</div>
-<div class="col-md-8">
-    
 </div>
 <?php include("../template/pie.php"); ?>
