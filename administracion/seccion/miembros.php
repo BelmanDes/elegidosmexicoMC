@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<div class="col-md-3">
+<div class="col-md-4">
 <div class="card">
     <div class="card-header">
         Agregar Miembros de EMMC
@@ -38,7 +38,6 @@
             <div class="form-group">
                 <label for="correo" class="form-label mt-4">Correo Electronico</label>
                 <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Introduce Correo Electronico">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="ocupacion" class="form-label mt-4">Ocupacion</label>
@@ -147,7 +146,27 @@
 </div>
     
 </div>
-<div class="col-md-9">
-    tabla de miembros
+<div class="col-md-8">
+    <table class="table table-hover">
+        <thead>
+            <tr class="table-dark">
+                <th>Nombre</th>
+                <th>Alias</th>
+                <th>Fecha Nac</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td scope="row"></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 <?php include("../template/pie.php"); ?>
