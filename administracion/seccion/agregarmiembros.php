@@ -46,15 +46,15 @@
 
     switch ($var_accion) {
         case 'agregar':
-            # code...
+            echo "se presiono el boton Agregar";
             break;
 
         case 'modificar':
-            # code...
+            echo "se presiono el boton Modificar";
             break;
 
         case 'cancelar':
-            # code...
+            echo "se presiono el boton Cancelar";
             break;
         default:
             # code...
@@ -67,7 +67,7 @@
             Agregar Miembros de ELEGIDOS MEXICO MC
         </div>
         <div class="card-body">
-        <form method="POST" enctype="multipart/form-data" action="">
+        <form method="POST" enctype="multipart/form-data">
             <fieldset>
                 <div class="form-group">
                     <label for="nombre" class="form-label mt-4">Nombre(s)</label>
