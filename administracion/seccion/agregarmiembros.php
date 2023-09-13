@@ -20,6 +20,7 @@
     $var_cargo=(isset($_POST['cargo']))?$_POST['cargo']:"";
     $var_rol=(isset($_POST['rol']))?$_POST['rol']:"";
     $var_estatus=(isset($_POST['estatus']))?$_POST['estatus']:"";
+    $var_accion=(isset($_POST['accion']))?$_POST['accion']:"";
 
     echo $var_nombre."<br/>";
     echo $var_apellidoPat."<br/>";
@@ -41,6 +42,24 @@
     echo $var_cargo."<br/>";
     echo $var_rol."<br/>";
     echo $var_estatus."<br/>";
+    echo $var_accion."<br/>";
+
+    switch ($var_accion) {
+        case 'agregar':
+            # code...
+            break;
+
+        case 'modificar':
+            # code...
+            break;
+
+        case 'cancelar':
+            # code...
+            break;
+        default:
+            # code...
+            break;
+    }
 ?>
 <div class="col-md-7">
     <div class="card">
