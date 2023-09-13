@@ -21,6 +21,26 @@
     $var_rol=(isset($_POST['rol']))?$_POST['rol']:"";
     $var_estatus=(isset($_POST['estatus']))?$_POST['estatus']:"";
 
+    echo $var_nombre."<br />";
+    echo $var_apellidoPat."<br />";
+    echo $var_apellidoMat."<br />";
+    echo $var_alias."<br />";
+    echo $var_fechNac."<br />";
+    echo $var_telCasa."<br />";
+    echo $var_Celular."<br />";
+    echo $var_correo."<br />";
+    echo $var_ocupacion."<br />";
+    echo $var_nss."<br />";
+    echo $var_tipoSangre."<br />";
+    echo $var_fecIng."<br />";
+    echo $var_padecimientos."<br />";
+    echo $var_direccion."<br />";
+    echo $var_estado."<br />";
+    echo $var_municipio."<br />";
+    echo $var_rango."<br />";
+    echo $var_cargo."<br />";
+    echo $var_rol."<br />";
+    echo $var_estatus."<br />";
 ?>
 <div class="col-md-7">
     <div class="card">
