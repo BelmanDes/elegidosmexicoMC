@@ -1,4 +1,27 @@
 <?php include("../template/cabecera.php"); ?>
+<?php>
+    $var_nombre=(isset($_POST['nombre']))?$_POST['nombre']:"";
+    $var_apellidoPat=(isset($_POST['apellidoPat']))?$_POST['apellidoPat']:"";
+    $var_apellidoMat=(isset($_POST['apellidoMat']))?$_POST['apellidoMat']:"";
+    $var_alias=(isset($_POST['apellidoMat']))?$_POST['alias']:"";
+    $var_fechNac=(isset($_POST['fechNac']))?$_POST['fechNac']:"";
+    $var_telCasa=(isset($_POST['telCasa']))?$_POST['telCasa']:"";
+    $var_Celular=(isset($_POST['Celular']))?$_POST['Celular']:"";
+    $var_correo=(isset($_POST['correo']))?$_POST['correo']:"";
+    $var_ocupacion=(isset($_POST['ocupacion']))?$_POST['ocupacion']:"";
+    $var_nss=(isset($_POST['nss']))?$_POST['nss']:"";
+    $var_tipoSangre=(isset($_POST['tipoSangre']))?$_POST['tipoSangre']:"";
+    $var_fecIng=(isset($_POST['fecIng']))?$_POST['fecIng']:"";
+    $var_padecimientos=(isset($_POST['padecimientos']))?$_POST['padecimientos']:"";
+    $var_direccion=(isset($_POST['direccion']))?$_POST['direccion']:"";
+    $var_estado=(isset($_POST['estado']))?$_POST['estado']:"";
+    $var_municipio=(isset($_POST['municipio']))?$_POST['municipio']:"";
+    $var_rango=(isset($_POST['rango']))?$_POST['rango']:"";
+    $var_cargo=(isset($_POST['cargo']))?$_POST['cargo']:"";
+    $var_rol=(isset($_POST['rol']))?$_POST['rol']:"";
+    $var_estatus=(isset($_POST['estatus']))?$_POST['estatus']:"";
+
+?>
 <div class="col-md-7">
     <div class="card">
         <div class="card-header">
@@ -50,11 +73,11 @@
                 <div class="form-group">
                     <label for="tipoSangre" class="form-label mt-4">Tipo de Sangre</label>
                     <select class="form-select" id="tipoSangre">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Tipo de Sangre</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -72,73 +95,66 @@
                 <div class="form-group">
                     <label for="estado" class="form-label mt-4">Estado</label>
                     <select class="form-select" id="estado">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Estado</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="municipio" class="form-label mt-4">Municipio</label>
                     <select class="form-select" id="municipio">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Municipio</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="rango" class="form-label mt-4">Rango</label>
                     <select class="form-select" id="rango">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Rango</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="cargo" class="form-label mt-4">Cargo</label>
                     <select class="form-select" id="cargo">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Cargo</option>
+                        <option value="1">Presidente</option>
+                        <option value="2">Vice Presidente</option>
+                        <option value="3">Secretario</option>
+                        <option value="4">Capitan de Ruta</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="rol" class="form-label mt-4">Rol</label>
                     <select class="form-select" id="rol">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option value="">--Selecionar Rol</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                     </select>
                 </div>
-                <fieldset class="form-group">
-                    <legend class="mt-4">Estatus</legend>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked="">
-                        <label class="form-check-label" for="optionsRadios1">
-                        Activo
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="0">
-                        <label class="form-check-label" for="optionsRadios2">
-                        Inactivo
-                        </label>
-                    </div>
-                </fieldset>
+                <div class="form-group">
+                    <label for="estatus" class="form-label mt-4">Estatus</label>
+                    <select class="form-select" id="estatus">
+                        <option value="">--Selecionar Estatus</option>
+                        <option value="1">Activo</option>
+                        <option value="0">Inactivo</option>
+                    </select>
+                </div>
                 <br />
                 <div class="btn-group" role="group" aria-label="">
-                    <button type="button" class="btn btn-primary btn-sm">Agregar</button>
-                    <button type="button" class="btn btn-primary btn-sm">Modificar</button>
-                    <button type="button" class="btn btn-warning btn-sm">Cancelar</button>
+                    <button type="button" name="accion" value="Agregar" class="btn btn-primary btn-sm">Agregar</button>
+                    <button type="button" name="accion" value="Modificar" class="btn btn-primary btn-sm">Modificar</button>
+                    <button type="button" name="accion" value="Cancelar" class="btn btn-warning btn-sm">Cancelar</button>
                 </div>
             </fieldset>
         </form>
