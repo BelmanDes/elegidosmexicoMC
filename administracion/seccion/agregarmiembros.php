@@ -1,5 +1,5 @@
 <?php include("../template/cabecera.php"); ?>
-<?php>
+<?php
     $var_nombre=(isset($_POST['nombre']))?$_POST['nombre']:"";
     $var_apellidoPat=(isset($_POST['apellidoPat']))?$_POST['apellidoPat']:"";
     $var_apellidoMat=(isset($_POST['apellidoMat']))?$_POST['apellidoMat']:"";
