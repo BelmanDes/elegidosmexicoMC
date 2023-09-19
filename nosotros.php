@@ -28,9 +28,11 @@
                         <h1>Misi&oacute;n</h1>
                     </div>
                     <div class="card-body">
-                        Nuestra Mision es congregar y establecer un gran equipo heterog&eacute;neo de motociclistas que deseen compartir su hobbie de las 
-                        motocicletas dentro de un ambiente familiar lleno de lealtad y compañerismo, respetando ciertas normativas  en pro del beneficio de 
-                        todos a fin de disfrutar al maximo de paseos, encuentros, eventos y dem&aacute;s actividades relacionadas con el motociclismo.
+                        <h5>
+                            Nuestra Mision es congregar y establecer un gran equipo heterog&eacute;neo de motociclistas que deseen compartir su hobbie de las 
+                            motocicletas dentro de un ambiente familiar lleno de lealtad y compañerismo, respetando ciertas normativas  en pro del beneficio de 
+                            todos a fin de disfrutar al maximo de paseos, encuentros, eventos y dem&aacute;s actividades relacionadas con el motociclismo.
+                        </h5>
                     </div>
                 </div>
                 <br />
