@@ -4,10 +4,10 @@
                         <h1>ELEGIDOS M&Eacute;XICO MC</h1>
                     </div>
                     <div class="card-body">
-                        <h4>
+                        <h5>
                             Es un grupo de Motociclistas de Estado de M&eacute;xico; constituido como una organizaci&oacute; sin fines de lucro, 
                             que nos reunimos por el simple hecho de disfrutar y compartir un hobbie familiar las motos.
-                        </h4>
+                        </h5>
                     </div>
                 </div>
                 <br />
@@ -16,8 +16,10 @@
                         <h1>Visi&oacute;n</h1>
                     </div>
                     <div class="card-body">
-                        Nuestra Vision es ser un moto club familiar con crecimiento sostenido, bas&aacute;ndonos en nuestros valores y en las buenas 
-                        costumbres, el respeto y las ganas de establecer una diferencia dentro de nuestro medio.
+                        <h5>
+                            Nuestra Vision es ser un moto club familiar con crecimiento sostenido, bas&aacute;ndonos en nuestros valores y en las buenas 
+                            costumbres, el respeto y las ganas de establecer una diferencia dentro de nuestro medio.
+                        </h5>
                     </div>
                 </div>
                 <br />
