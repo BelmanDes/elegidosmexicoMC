@@ -18,7 +18,7 @@
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active"  href="<?php echo $url;?>/index.php">Inicio
+                            <a class="nav-link"  href="<?php echo $url;?>/index.php">Inicio
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
@@ -34,7 +34,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo $url;?>/contactanos.php">Contactanos</a>
                         </li>
-                        <!--
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu">
@@ -50,7 +49,6 @@
                         <input class="form-control me-sm-2" type="search" placeholder="Search">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
-                    -->
                 </div>
             </div>
         </nav>
