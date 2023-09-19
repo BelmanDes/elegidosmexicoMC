@@ -1,4 +1,3 @@
-            </div>
         </div>
         <br />
         <footer class="panel-footer">
