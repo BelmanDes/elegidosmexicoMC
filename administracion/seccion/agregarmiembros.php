@@ -7,14 +7,7 @@
     $USUARIO="root";
     $PASS="";
 
-    try {
-        $conexion=new PDO("mysql:host=$HOST;dbname=$BD",$USUARIO,$PASS);
-        if($conexion){
-            echo "Conectado a Sitio Web";
-        }
-    } catch (Exeption $ex) {
-        echo $ex->getMessage();
-    }
+   
 
     switch ($var_accion) {
         case 'agregar':
