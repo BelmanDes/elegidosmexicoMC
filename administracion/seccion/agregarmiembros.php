@@ -32,11 +32,11 @@
             Agregar Miembros de ELEGIDOS MEXICO MC
         </div>
         <div class="card-body">
-        <form method="POST" enctype="multipart/form-data">
+        <form method="POST" enctype="multipart/form-data" >
             <fieldset>
                 <div class="form-group">
                     <label for="nombre" class="form-label mt-4">Nombre(s)</label>
-                    <input type="text" class="form-control form-control-sm" id="nombre" placeholder="Introduce nombre">
+                    <input type="text" class="form-control form-control-sm" name="nombre" id="nombre" placeholder="Introduce nombre">
                 </div>
                 <div class="form-group">
                     <label for="apellidoPat" class="form-label mt-4">Apellido Paterno</label>
