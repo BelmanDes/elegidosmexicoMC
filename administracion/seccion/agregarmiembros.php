@@ -1,48 +1,6 @@
 <?php include("../template/cabecera.php"); ?>
 <?php
-    $var_nombre=(isset($_POST['nombre']))?$_POST['nombre']:"";
-    $var_apellidoPat=(isset($_POST['apellidoPat']))?$_POST['apellidoPat']:"";
-    $var_apellidoMat=(isset($_POST['apellidoMat']))?$_POST['apellidoMat']:"";
-    $var_alias=(isset($_POST['apellidoMat']))?$_POST['alias']:"";
-    $var_fechNac=(isset($_POST['fechNac']))?$_POST['fechNac']:"";
-    $var_telCasa=(isset($_POST['telCasa']))?$_POST['telCasa']:"";
-    $var_Celular=(isset($_POST['Celular']))?$_POST['Celular']:"";
-    $var_correo=(isset($_POST['correo']))?$_POST['correo']:"";
-    $var_ocupacion=(isset($_POST['ocupacion']))?$_POST['ocupacion']:"";
-    $var_nss=(isset($_POST['nss']))?$_POST['nss']:"";
-    $var_tipoSangre=(isset($_POST['tipoSangre']))?$_POST['tipoSangre']:"";
-    $var_fecIng=(isset($_POST['fecIng']))?$_POST['fecIng']:"";
-    $var_padecimientos=(isset($_POST['padecimientos']))?$_POST['padecimientos']:"";
-    $var_direccion=(isset($_POST['direccion']))?$_POST['direccion']:"";
-    $var_estado=(isset($_POST['estado']))?$_POST['estado']:"";
-    $var_municipio=(isset($_POST['municipio']))?$_POST['municipio']:"";
-    $var_rango=(isset($_POST['rango']))?$_POST['rango']:"";
-    $var_cargo=(isset($_POST['cargo']))?$_POST['cargo']:"";
-    $var_rol=(isset($_POST['rol']))?$_POST['rol']:"";
-    $var_estatus=(isset($_POST['estatus']))?$_POST['estatus']:"";
-    $var_accion=(isset($_POST['accion']))?$_POST['accion']:"";
-
-    echo $var_nombre."<br/>";
-    echo $var_apellidoPat."<br/>";
-    echo $var_apellidoMat."<br/>";
-    echo $var_alias."<br/>";
-    echo $var_fechNac."<br/>";
-    echo $var_telCasa."<br/>";
-    echo $var_Celular."<br/>";
-    echo $var_correo."<br/>";
-    echo $var_ocupacion."<br/>";
-    echo $var_nss."<br/>";
-    echo $var_tipoSangre."<br/>";
-    echo $var_fecIng."<br/>";
-    echo $var_padecimientos."<br/>";
-    echo $var_direccion."<br/>";
-    echo $var_estado."<br/>";
-    echo $var_municipio."<br/>";
-    echo $var_rango."<br/>";
-    echo $var_cargo."<br/>";
-    echo $var_rol."<br/>";
-    echo $var_estatus."<br/>";
-    echo $var_accion."<br/>";
+   print_r($_POST);
 
     $HOST="192.168.100.18";
     $BD="elegidosmc";
@@ -50,10 +8,9 @@
     $PASS="";
 
     try {
-        $conexion= new PDO("mysql:host=$HOST;dbname=$BD",$USUARIO,$PASS);
+        $conexion=new PDO("mysql:host=$HOST;dbname=$BD",$USUARIO,$PASS);
         if($conexion){
             echo "Conectado a Sitio Web";
-
         }
     } catch (Exeption $ex) {
         echo $ex->getMessage();
