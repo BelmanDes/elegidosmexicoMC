@@ -35,6 +35,9 @@
                     <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url;?>/administracion/seccion/cerrar.php">Cerrar Sesion</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url;?>/index.php">Sitio Web</a>
+                    </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-sm-2" type="search" placeholder="Search">
