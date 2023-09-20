@@ -33,10 +33,10 @@
                     <a class="nav-link" href="<?php echo $url;?>/administracion/seccion/contactos.php">Contactos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url;?>/administracion/seccion/cerrar.php">Cerrar Sesion</a>
+                    <a class="nav-link" href="<?php echo $url;?>/index.php">Sitio Web</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url;?>/index.php">Sitio Web</a>
+                    <a class="nav-link" href="<?php echo $url;?>/administracion/seccion/cerrar.php">Cerrar Sesion</a>
                     </li>
                 </ul>
                 <form class="d-flex">

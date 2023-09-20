@@ -26,7 +26,7 @@
                             <a class="nav-link" href="<?php echo $url;?>/nosotros.php">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo $url;?>/mienbros.php">Miembros</a>
+                            <a class="nav-link" href="<?php echo $url;?>/miembros.php">Miembros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo $url;?>/mesaDirectiva.php">Mesa Directiva</a>
