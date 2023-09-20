@@ -10,9 +10,9 @@
             <table class="table table-hover">
                 <thead>
                     <tr class="table-dark">
-                        <th>Alias</th>
-                        <th>Estado</th>
-                        <th>Cargo</th>
+                        <th>ALIAS</th>
+                        <th>ESTADO</th>
+                        <th>CARGO</th>
                     </tr>
                 </thead>
                 <tbody>

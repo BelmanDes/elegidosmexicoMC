@@ -44,6 +44,21 @@
     echo $var_estatus."<br/>";
     echo $var_accion."<br/>";
 
+    $HOST="192.168.100.18";
+    $BD="elegidosmc";
+    $USUARIO="root";
+    $PASS="";
+
+    try {
+        $conexion= new PDO("mysql:host=$HOST;dbname=$BD",$USUARIO,$PASS);
+        if($conexion){
+            echo "Conectado a Sitio Web";
+
+        }
+    } catch (Exeption $ex) {
+        echo $ex->getMessage();
+    }
+
     switch ($var_accion) {
         case 'agregar':
             echo "se presiono el boton Agregar";
