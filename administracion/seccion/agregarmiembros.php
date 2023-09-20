@@ -2,29 +2,11 @@
 <?php
    print_r($_POST);
 
-    $HOST="192.168.100.18";
-    $BD="elegidosmc";
-    $USUARIO="root";
-    $PASS="";
+    
 
    
 
-    switch ($var_accion) {
-        case 'agregar':
-            echo "se presiono el boton Agregar";
-            break;
-
-        case 'modificar':
-            echo "se presiono el boton Modificar";
-            break;
-
-        case 'cancelar':
-            echo "se presiono el boton Cancelar";
-            break;
-        default:
-            # code...
-            break;
-    }
+    
 ?>
 <div class="col-md-7">
     <div class="card">
