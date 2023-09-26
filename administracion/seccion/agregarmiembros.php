@@ -1,6 +1,6 @@
 <?php include("../template/cabecera.php"); ?>
 <?php
-   print_r();
+   print_r($_POST);
 
     
 
