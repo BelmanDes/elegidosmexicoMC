@@ -1,10 +1,8 @@
 <?php include("../template/cabecera.php"); ?>
 <?php
-   print_r($_POST);
-
-    
-
    
+   $txtnombre=(isset($_POST['nombre']))?isset($_POST['nombre']:"";
+   $txtnombre=(isset($_POST['nombre']))?isset($_POST['nombre']:"";
 
     
 ?>
