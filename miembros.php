@@ -11,20 +11,16 @@
                 <thead>
                     <tr class="table-dark">
                         <th>ALIAS</th>
-                        <th>ESTADO</th>
-                        <th>MUNICIPIO</th>
                         <th>RANGO</th>
                         <th>ROL</th>
+                        <th>ESTADO</th>
+                        <th>MUNICIPIO</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Alias</td>
-                        <td>Estado</td>
-                        <td>Municipio</td>
-                        <td>Rango</td>
-                        <td>Rol</td>
-                    </tr>
+                    <?php
+                        include("includes/conMiembros.php")
+                    ?>
                 </tbody>
             </table>
         </div>

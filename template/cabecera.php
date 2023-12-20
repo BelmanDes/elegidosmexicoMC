@@ -8,14 +8,14 @@
         <link rel="stylesheet" href="./css/bootstrap.css"/>
     </head>
     <body>
-    <?php $url="http://".$_SERVER['HTTP_HOST']."/elegidosmexicoMC" ?>
+    <?php $url="http://".$_SERVER['HTTP_HOST']."" ?>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="administracion/index.php">ELEGIDOS M&Eacute;XICO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarColor01">
+                <div class="navbar-collapse collapse" id="navbarColor01">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link"  href="<?php echo $url;?>/index.php">Inicio
@@ -32,7 +32,7 @@
                             <a class="nav-link" href="<?php echo $url;?>/mesaDirectiva.php">Mesa Directiva</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo $url;?>/contactanos.php">Contactanos</a>
+                            <span class="glyphicon glyphicon-envelope"></span><a class="nav-link" href="<?php echo $url;?>/contactanos.php">Contactanos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>

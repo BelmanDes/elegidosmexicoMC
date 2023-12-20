@@ -16,11 +16,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Alias</td>
-                        <td>Estado</td>
-                        <td>Cargo</td>
-                    </tr>
+                    <?php
+                        include("includes/conMesaDirectiva.php") 
+                    ?>
                 </tbody>
             </table>
         </div>

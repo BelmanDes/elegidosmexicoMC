@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="../css/bootstrap.css"/>
   </head>
   <body>
-    <?php $url="http://".$_SERVER['HTTP_HOST']."/elegidosmexicoMC" ?>
+    <?php $url="http://".$_SERVER['HTTP_HOST']."" ?>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Administrador de Miembros EMMC</a>
+            <a class="navbar-brand" href="#">Control de Miembros EMMC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

@@ -13,7 +13,7 @@
                     <tr class="table-dark">
                         <th>Nombre</th>
                         <th>Alias</th>
-                        <th>Fecha Nac</th>
+                        <th>Nacimiento</th>
                         <th>Telefono</th>
                         <th>Celular</th>
                         <th>Email</th>
@@ -31,25 +31,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Nombre</td>
-                        <td>Alias</td>
-                        <td>Fecha Nac</td>
-                        <td>Telefono</td>
-                        <td>Celular</td>
-                        <td>Email</td>
-                        <td>Ocupacion</td>
-                        <td>Seguro Social</td>
-                        <td>Tipo Sangre</td>
-                        <td>Padecimientos</td>
-                        <td>direccion</td>
-                        <td>Estado</td>
-                        <td>Municipio</td>
-                        <td>Rango</td>
-                        <td>Cargo</td>
-                        <td>Rol</td>
-                        <td>Estatus</td>
-                    </tr>
+                <?php
+                    include("includes/conexion.php");
+                    include("includes/cmiembros.php");
+                ?>
                 </tbody>
             </table>
         </div>
